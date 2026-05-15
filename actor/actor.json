@@ -1,0 +1,12 @@
+{
+  "actorSpecification": 1,
+  "name": "ucr-telegram-scraper",
+  "title": "UCR Telegram Scraper",
+  "description": "Collects latest posts from public Telegram channels for Uchi Content Radar.",
+  "version": "0.1",
+  "buildTag": "latest",
+  "input": "./INPUT_SCHEMA.json",
+  "storages": {
+    "dataset": "./OUTPUT_SCHEMA.json"
+  }
+}

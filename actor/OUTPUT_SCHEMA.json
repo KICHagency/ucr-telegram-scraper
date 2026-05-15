@@ -1,0 +1,26 @@
+{
+  "actorSpecification": 1,
+  "fields": {},
+  "views": {
+    "overview": {
+      "title": "Overview",
+      "transformation": {
+        "fields": [
+          "date",
+          "competitor",
+          "platform",
+          "post_text",
+          "image_url",
+          "post_url",
+          "views",
+          "collected_at",
+          "error"
+        ]
+      },
+      "display": {
+        "component": "table",
+        "properties": {}
+      }
+    }
+  }
+}
